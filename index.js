@@ -3,9 +3,9 @@ const chalk = require('chalk');
 
 
 score=0;
-let userName = a.question("what is your name   ");
-console.log(`welcome ${userName} how r u `);
-console.log (`dear ${userName} do u wanna play a pokemon quiz ?`);
+let userName = a.question("what is your name ?  ");
+console.log(`Welcome ${userName} how r u `);
+console.log (`dDar ${userName} Do u wanna play a pokemon quiz ?`);
 
 let gamePart = a.question("yes  or no   --> ");
 if(gamePart === "yes"){
